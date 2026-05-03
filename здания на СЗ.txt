@@ -1,0 +1,544 @@
+Position: <4489.820801, 338.763947, 9518.495117>
+Orientation: <150.000000, 0.000000, -0.000000>
+Config-Type: Land_Mil_Barracks6_Old
+
+Position: <4498.594238, 339.000000, 9550.153320>
+Orientation: <150.000000, 0.000000, -0.000000>
+Config-Type: Land_Mil_Barracks6
+
+Position: <4508.539063, 338.763947, 9583.461914>
+Orientation: <150.000000, 0.000000, -0.000000>
+Config-Type: Land_Mil_Barracks6_Old
+
+Position: <4519.192871, 341.214417, 9389.499023>
+Orientation: <140.886948, 0.000000, -0.000000>
+Config-Type: Land_Mil_Guardhouse1
+
+Position: <-0.211774, -0.838300, -0.960471>
+Orientation: <81.999992, 0.000000, -0.000000>
+Config-Type: 
+
+Position: <4553.765625, 341.403992, 9540.152344>
+Orientation: <150.000000, 0.000000, -0.000000>
+Config-Type: Land_Mil_Barracks3
+
+Position: <4591.328125, 347.710724, 9554.226563>
+Orientation: <-29.999928, 0.000000, -0.000000>
+Config-Type: Land_Office2
+
+Position: <4550.699707, 347.710724, 9600.814453>
+Orientation: <-119.999985, 0.000000, -0.000000>
+Config-Type: Land_Office2
+
+Position: <4456.164551, 343.500000, 9580.411133>
+Orientation: <15.000000, 0.000000, -0.000000>
+Config-Type: Land_Tisy_KitchenRoom
+
+Position: <4474.641602, 341.052521, 9646.079102>
+Orientation: <152.059433, 0.000000, -0.000000>
+Config-Type: Land_Power_Station
+
+Position: <4451.310059, 340.393860, 9642.756836>
+Orientation: <-29.999928, 0.000000, -0.000000>
+Config-Type: Land_Workshop5
+
+Position: <4459.026367, 340.664581, 9682.876953>
+Orientation: <-117.828667, 0.000000, -0.000000>
+Config-Type: Land_Workshop4
+
+Position: <4518.094238, 341.573761, 9645.407227>
+Orientation: <-29.263824, 0.000000, -0.000000>
+Config-Type: Land_Repair_Center
+
+Position: <4533.811523, 340.588196, 9653.709961>
+Orientation: <-30.163141, 0.000000, -0.000000>
+Config-Type: Land_Garage_Row_Small
+
+Position: <4513.408691, 340.393860, 9659.479492>
+Orientation: <-29.779285, 0.000000, -0.000000>
+Config-Type: Land_Workshop5
+
+Position: <4507.656738, 340.588196, 9673.896484>
+Orientation: <60.722290, 0.000000, -0.000000>
+Config-Type: Land_Garage_Row_Small
+
+Position: <4500.112305, 340.588196, 9687.322266>
+Orientation: <60.722290, 0.000000, -0.000000>
+Config-Type: Land_Garage_Row_Small
+
+Position: <4491.809082, 344.058441, 9712.168945>
+Orientation: <60.000000, 0.000000, -0.000000>
+Config-Type: Land_Shed_Closed
+
+Position: <4487.979492, 341.254578, 9765.634766>
+Orientation: <-118.914200, 0.000000, -0.000000>
+Config-Type: Land_Mil_Guardhouse1
+
+Position: <4419.817383, 340.704590, 9803.092773>
+Orientation: <60.861694, 0.000000, -0.000000>
+Config-Type: Land_Workshop4
+
+Position: <4444.107910, 342.307861, 9941.922852>
+Orientation: <59.330502, 0.000000, -0.000000>
+Config-Type: Land_Water_Station
+
+Position: <4303.017090, 342.238678, 10115.202148>
+Orientation: <-146.984848, 0.000000, -0.000000>
+Config-Type: Land_Garage_Row_Big
+
+Position: <4144.262695, 341.566193, 10274.673828>
+Orientation: <-126.730942, 0.000000, -0.000000>
+Config-Type: Land_Mil_Barracks3
+
+Position: <4027.031006, 339.258148, 10357.199219>
+Orientation: <-90.000000, 0.000000, -0.000000>
+Config-Type: Land_Tisy_Garages2
+
+Position: <4152.047852, 340.664581, 10398.338867>
+Orientation: <-127.999992, 0.000000, -0.000000>
+Config-Type: Land_Workshop4
+
+Position: <4134.193359, 344.041168, 10431.965820>
+Orientation: <142.000000, 0.000000, -0.000000>
+Config-Type: Land_Shed_Closed
+
+Position: <4109.525391, 341.200409, 10459.620117>
+Orientation: <-37.999992, 0.000000, -0.000000>
+Config-Type: Land_Mil_Barracks3
+
+Position: <4054.768555, 340.334076, 10521.386719>
+Orientation: <-26.975744, 0.000000, 0.000000>
+Config-Type: Land_Mil_Tent_Big4
+
+Position: <4064.225342, 340.830475, 10556.718750>
+Orientation: <68.605576, 0.000000, -0.000000>
+Config-Type: Land_Mil_Barracks_Round
+
+Position: <3998.718018, 344.403442, 10495.282227>
+Orientation: <63.503094, 0.000000, -0.000000>
+Config-Type: StaticObj_Wall_CYel_5
+
+Position: <3972.982666, 340.764984, 10558.096680>
+Orientation: <-18.198912, 0.000000, 0.000000>
+Config-Type: Land_Mil_Barracks4
+
+Position: <3968.926025, 340.764984, 10570.493164>
+Orientation: <-18.198912, 0.000000, 0.000000>
+Config-Type: Land_Mil_Barracks4
+
+Position: <4071.299561, 339.065521, 10509.319336>
+Orientation: <144.001175, 0.000000, -0.000000>
+Config-Type: Land_Mil_Tent_Big1_3
+
+Position: <3628.810059, 323.271820, 11158.878906>
+Orientation: <-89.632698, 0.000000, -0.000000>
+Config-Type: Land_Power_Transformer_Build
+
+Position: <3613.318115, 317.498138, 11176.253906>
+Orientation: <-83.133667, 0.000000, -0.000000>
+Config-Type: Land_Mil_Guardhouse2
+
+Position: <3997.604736, 376.857758, 11884.284180>
+Orientation: <36.854347, 0.000000, -0.000000>
+Config-Type: Land_Mil_Barracks2
+
+Position: <4024.935303, 376.912384, 11865.339844>
+Orientation: <-142.941116, 0.000000, -0.000000>
+Config-Type: Land_Mil_Barracks2
+
+Position: <4035.118408, 376.856171, 11848.348633>
+Orientation: <37.164104, 0.000000, -0.000000>
+Config-Type: Land_Garage_Small
+
+Position: <4013.907471, 376.888794, 11831.831055>
+Orientation: <-89.435143, 0.000000, -0.000000>
+Config-Type: Land_Workshop2
+
+Position: <3987.707520, 377.890747, 11825.287109>
+Orientation: <-0.115366, 0.000000, -0.000000>
+Config-Type: Land_Mil_Barracks3
+
+Position: <4017.932129, 377.783081, 11805.979492>
+Orientation: <-90.165588, 0.000000, -0.000000>
+Config-Type: Land_Mil_Barracks1
+
+Position: <4020.429443, 377.096741, 11786.428711>
+Orientation: <179.791565, 0.000000, -0.000000>
+Config-Type: Land_Mil_Barracks2
+
+Position: <3984.514648, 376.995911, 11799.549805>
+Orientation: <0.324463, 0.000000, -0.000000>
+Config-Type: Land_Mil_Barracks2
+
+Position: <3983.275635, 377.816986, 11782.115234>
+Orientation: <-89.417625, 0.000000, -0.000000>
+Config-Type: Land_Mil_Barracks1
+
+Position: <4063.262939, 381.019226, 11790.651367>
+Orientation: <149.286652, 0.000000, -0.000000>
+Config-Type: Land_Garage_Row_Small
+
+Position: <4088.332031, 380.912994, 11736.466797>
+Orientation: <148.374466, 0.000000, -0.000000>
+Config-Type: Land_Workshop1
+
+Position: <4047.376221, 380.815094, 11712.568359>
+Orientation: <-120.488892, 0.000000, -0.000000>
+Config-Type: Land_Mil_Barracks5_Basement
+
+Position: <4142.208008, 406.334747, 11763.908203>
+Orientation: <148.943161, 0.000000, -0.000000>
+Config-Type: Land_Airfield_Radar_Tall
+
+Position: <3975.938232, 368.787659, 11626.166992>
+Orientation: <20.500999, 0.000000, -0.000000>
+Config-Type: Land_Water_Station
+
+Position: <4017.483154, 373.143860, 11614.263672>
+Orientation: <-159.978973, 0.000000, -0.000000>
+Config-Type: Land_Garage_Row_Big
+
+Position: <4041.756836, 373.145782, 11605.413086>
+Orientation: <-159.978973, 0.000000, -0.000000>
+Config-Type: Land_Garage_Row_Big
+
+Position: <4057.722900, 373.067688, 11601.638672>
+Orientation: <-159.979370, 0.000000, -0.000000>
+Config-Type: Land_Garage_Office
+
+Position: <4159.599121, 373.701538, 11619.107422>
+Orientation: <98.049789, 0.000000, -0.000000>
+Config-Type: Land_Mil_Guardhouse1
+
+Position: <4121.492676, 339.643799, 11049.361328>
+Orientation: <-107.001160, 0.000000, -0.000000>
+Config-Type: Land_Mil_Barracks_Round
+
+Position: <4124.393066, 339.643799, 11039.933594>
+Orientation: <-107.001160, 0.000000, -0.000000>
+Config-Type: Land_Mil_Barracks_Round
+
+Position: <4135.597168, 340.462769, 11058.539063>
+Orientation: <-17.586660, 0.000000, -0.000000>
+Config-Type: Land_Mil_Fortified_Nest_Watchtower
+
+Position: <4156.551758, 339.580505, 11059.474609>
+Orientation: <-107.730186, 0.000000, -0.000000>
+Config-Type: Land_Mil_Tent_Big3
+
+Position: <4181.081543, 340.407166, 11078.221680>
+Orientation: <55.464985, 0.000000, -0.000000>
+Config-Type: Land_Mil_Tent_Big2_2
+
+Position: <4199.960449, 338.410034, 11077.306641>
+Orientation: <-15.091347, 0.000000, -0.000000>
+Config-Type: Land_Mil_Tent_Big1_1
+
+Position: <4211.389648, 338.410034, 11080.548828>
+Orientation: <-15.091347, 0.000000, -0.000000>
+Config-Type: Land_Mil_Tent_Big1_4
+
+Position: <4189.506836, 339.621552, 11057.502930>
+Orientation: <-16.968884, 0.000000, -0.000000>
+Config-Type: Land_Mil_Tent_Big4
+
+Position: <4199.433594, 340.407135, 11055.601563>
+Orientation: <-16.483667, 0.000000, -0.000000>
+Config-Type: Land_Mil_Tent_Big2_3
+
+Position: <4216.567871, 338.410004, 11048.108398>
+Orientation: <164.224762, 0.000000, -0.000000>
+Config-Type: Land_Mil_Tent_Big1_5
+
+Position: <4208.553711, 340.394348, 11022.911133>
+Orientation: <-14.832511, 0.000000, -0.000000>
+Config-Type: Land_Mil_Tent_Big2_4
+
+Position: <4218.373535, 338.402008, 11000.988281>
+Orientation: <163.920471, 0.000000, -0.000000>
+Config-Type: Land_Mil_Tent_Big1_2
+
+Position: <4204.964844, 339.611542, 11000.817383>
+Orientation: <-16.968884, 0.000000, -0.000000>
+Config-Type: Land_Mil_Tent_Big4
+
+Position: <4359.412109, 338.690094, 10968.284180>
+Orientation: <-2.174913, 0.000000, -0.000000>
+Config-Type: Land_Mil_AircraftShelter
+
+Position: <4408.011230, 338.556549, 10994.467773>
+Orientation: <-2.790996, 0.000000, -0.000000>
+Config-Type: Land_Mil_AircraftShelter
+
+Position: <4435.579590, 340.048645, 10946.700195>
+Orientation: <-29.436628, 0.000000, -0.000000>
+Config-Type: Land_Workshop1
+
+Position: <4457.364258, 338.635162, 10909.289063>
+Orientation: <122.102997, 0.000000, -0.000000>
+Config-Type: Land_Mil_AircraftShelter
+
+Position: <4410.405762, 338.690338, 10878.563477>
+Orientation: <122.102997, 0.000000, -0.000000>
+Config-Type: Land_Mil_AircraftShelter
+
+Position: <4427.341309, 340.956238, 10802.014648>
+Orientation: <-27.453989, 0.000000, -0.000000>
+Config-Type: Land_Power_Station
+
+Position: <-1.904054, -1.548103, -2.150375>
+Orientation: <92.000008, 0.000000, -0.000000>
+Config-Type: 
+
+Position: <4471.701660, 340.309448, 10830.115234>
+Orientation: <151.601974, 0.000000, -0.000000>
+Config-Type: Land_Workshop1
+
+Position: <4563.868164, 351.777435, 10854.026367>
+Orientation: <0.000000, 0.000000, -0.000000>
+Config-Type: Land_CoalPlant_Main
+
+Position: <4456.811035, 341.577698, 10726.012695>
+Orientation: <62.021954, 0.000000, -0.000000>
+Config-Type: Land_Repair_Center
+
+Position: <4504.733887, 339.042572, 10722.510742>
+Orientation: <4.431000, 0.000000, -0.000000>
+Config-Type: Land_Mil_AircraftShelter
+
+Position: <4557.237305, 339.015198, 10749.496094>
+Orientation: <4.336000, 0.000000, -0.000000>
+Config-Type: Land_Mil_AircraftShelter
+
+Position: <4627.186523, 338.999969, 10685.427734>
+Orientation: <115.497002, 0.000000, -0.000000>
+Config-Type: Land_Mil_AircraftShelter
+
+Position: <4581.883789, 338.999969, 10654.839844>
+Orientation: <115.497002, 0.000000, -0.000000>
+Config-Type: Land_Mil_AircraftShelter
+
+Position: <4701.677734, 340.982117, 10723.634766>
+Orientation: <51.489178, 0.000000, -0.000000>
+Config-Type: Land_Power_Station
+
+Position: <4717.399414, 340.312256, 10704.832031>
+Orientation: <-128.706146, 0.000000, -0.000000>
+Config-Type: Land_Workshop3
+
+Position: <4740.817383, 335.598541, 10868.024414>
+Orientation: <-41.031200, 0.000000, -0.000000>
+Config-Type: Land_Workshop1
+
+Position: <4816.520508, 344.862823, 10642.128906>
+Orientation: <-135.608994, 0.000000, -0.000000>
+Config-Type: Land_Factory_Small
+
+Position: <4780.643555, 339.682190, 10655.894531>
+Orientation: <-41.555405, 0.000000, -0.000000>
+Config-Type: Land_Guardhouse
+
+Position: <4758.819336, 340.996338, 10624.082031>
+Orientation: <-45.120380, 0.000000, -0.000000>
+Config-Type: Land_Mil_Barracks1
+
+Position: <4786.567871, 340.865570, 10606.516602>
+Orientation: <-135.608994, 0.000000, -0.000000>
+Config-Type: Land_Shed_Closed2
+
+Position: <4767.512207, 340.705200, 10587.347656>
+Orientation: <-135.608994, 0.000000, -0.000000>
+Config-Type: Land_Shed_Closed2
+
+Position: <4807.647461, 340.660919, 10577.388672>
+Orientation: <44.391006, 0.000000, -0.000000>
+Config-Type: Land_Shed_Closed2
+
+Position: <4789.231445, 340.725159, 10558.160156>
+Orientation: <44.391006, 0.000000, -0.000000>
+Config-Type: Land_Shed_Closed2
+
+Position: <4940.924805, 337.534821, 10466.732422>
+Orientation: <65.360435, 0.000000, -0.000000>
+Config-Type: Land_Garage_Row_Big
+
+Position: <4946.083008, 337.520477, 10451.018555>
+Orientation: <65.360435, 0.000000, -0.000000>
+Config-Type: Land_Garage_Office
+
+Position: <4941.763184, 335.010284, 10419.165039>
+Orientation: <-130.954514, 0.000000, -0.000000>
+Config-Type: Land_Guardhouse
+
+Position: <4924.283203, 339.589722, 10409.899414>
+Orientation: <46.667435, 0.000000, -0.000000>
+Config-Type: Land_Mil_Airfield_HQ
+
+Position: <4792.877441, 340.704590, 10451.053711>
+Orientation: <64.586693, 0.000000, -0.000000>
+Config-Type: Land_Workshop4
+
+Position: <4731.710449, 341.334442, 10538.860352>
+Orientation: <115.447334, 0.000000, -0.000000>
+Config-Type: Land_Mil_Barracks3
+
+Position: <4670.372559, 340.478149, 10544.542969>
+Orientation: <-176.166489, 0.000000, -0.000000>
+Config-Type: Land_Workshop3
+
+Position: <4622.919922, 340.393829, 10509.341797>
+Orientation: <-27.180971, 0.000000, -0.000000>
+Config-Type: Land_Workshop5
+
+Position: <4580.151855, 340.664581, 10532.381836>
+Orientation: <59.526291, 0.000000, -0.000000>
+Config-Type: Land_Workshop4
+
+Position: <4557.349609, 340.588196, 10536.787109>
+Orientation: <-32.683456, 0.000000, -0.000000>
+Config-Type: Land_Garage_Row_Small
+
+Position: <4561.953125, 339.207581, 10583.127930>
+Orientation: <0.000000, 0.000000, -0.000000>
+Config-Type: Land_Mil_FireStation
+
+Position: <4619.938477, 340.347961, 10472.208008>
+Orientation: <151.170319, 0.000000, -0.000000>
+Config-Type: Land_Workshop2
+
+Position: <4636.717773, 354.441772, 10445.325195>
+Orientation: <60.891064, 0.000000, -0.000000>
+Config-Type: Land_Mil_ATC_Big
+
+Position: <4629.746094, 338.869171, 10386.112305>
+Orientation: <-119.504631, 0.000000, -0.000000>
+Config-Type: Land_Mil_Tent_Big1_4
+
+Position: <4664.136230, 340.215759, 10376.732422>
+Orientation: <-30.036947, 0.000000, -0.000000>
+Config-Type: Land_Mil_Tent_Big3
+
+Position: <4733.847656, 338.989594, 10289.067383>
+Orientation: <-120.871269, 0.000000, -0.000000>
+Config-Type: Land_Airfield_ServiceHangar_R
+
+Position: <4759.015625, 339.087585, 10317.001953>
+Orientation: <-119.117905, 0.000000, -0.000000>
+Config-Type: Land_Medical_Tent_Big
+
+Position: <4779.539063, 339.088715, 10321.688477>
+Orientation: <-28.619247, 0.000000, -0.000000>
+Config-Type: Land_Medical_Tent_Big
+
+Position: <4775.198242, 339.095001, 10329.721680>
+Orientation: <-28.103567, 0.000000, -0.000000>
+Config-Type: Land_Medical_Tent_Big
+
+Position: <4764.687500, 340.668121, 10323.961914>
+Orientation: <59.301140, 0.000000, -0.000000>
+Config-Type: Land_Medical_Tent_Shower
+
+Position: <4706.785156, 344.893494, 10329.291992>
+Orientation: <105.323990, 0.000000, -0.000000>
+Config-Type: Land_Wreck_C130J_2
+
+Position: <4397.785645, 344.109009, 10231.076172>
+Orientation: <95.305290, 0.076398, 8.146673>
+Config-Type: Land_Wreck_C130J_Cargo
+
+Position: <4816.044434, 339.000000, 10181.456055>
+Orientation: <4.431000, 0.000000, -0.000000>
+Config-Type: Land_Mil_AircraftShelter
+
+Position: <4866.023926, 339.000000, 10207.993164>
+Orientation: <4.431000, 0.000000, -0.000000>
+Config-Type: Land_Mil_AircraftShelter
+
+Position: <4938.669434, 338.989990, 10139.540039>
+Orientation: <114.314003, 0.000000, -0.000000>
+Config-Type: Land_Mil_AircraftShelter
+
+Position: <4889.960449, 338.990692, 10110.470703>
+Orientation: <114.951996, 0.000000, -0.000000>
+Config-Type: Land_Mil_AircraftShelter
+
+Position: <4917.070801, 339.000000, 10029.149414>
+Orientation: <-1.997820, 0.000000, -0.000000>
+Config-Type: Land_Mil_AircraftShelter
+
+Position: <4970.566895, 338.991455, 10059.114258>
+Orientation: <-1.659999, 0.000000, -0.000000>
+Config-Type: Land_Mil_AircraftShelter
+
+Position: <5001.638672, 340.287048, 10026.977539>
+Orientation: <-89.283676, 0.000000, -0.000000>
+Config-Type: Land_Workshop5
+
+Position: <5023.500977, 338.990845, 9968.365234>
+Orientation: <122.594994, 0.000000, -0.000000>
+Config-Type: Land_Mil_AircraftShelter
+
+Position: <4968.069824, 339.000000, 9939.159180>
+Orientation: <124.434006, 0.000000, -0.000000>
+Config-Type: Land_Mil_AircraftShelter
+
+Position: <5035.301270, 340.438568, 9860.042969>
+Orientation: <89.547745, 0.000000, -0.000000>
+Config-Type: Land_Workshop1
+
+Position: <5038.829102, 341.200409, 9840.758789>
+Orientation: <-90.377792, 0.000000, -0.000000>
+Config-Type: Land_Mil_Barracks3
+
+Position: <5049.383789, 340.368378, 9807.552734>
+Orientation: <-89.897766, 0.000000, -0.000000>
+Config-Type: Land_Mil_Barracks2
+
+Position: <5011.342773, 338.999969, 9786.728516>
+Orientation: <-3.536006, 0.000000, -0.000000>
+Config-Type: Land_Mil_AircraftShelter
+
+Position: <5044.110352, 339.000031, 9681.734375>
+Orientation: <123.052002, 0.000000, -0.000000>
+Config-Type: Land_Mil_AircraftShelter
+
+Position: <5089.249512, 339.000031, 9710.005859>
+Orientation: <122.103981, 0.000000, -0.000000>
+Config-Type: Land_Mil_AircraftShelter
+
+Position: <4829.909180, 344.252960, 9647.303711>
+Orientation: <169.501022, 1.000209, -9.995022>
+Config-Type: Land_Wreck_C130J
+
+Position: <5368.944824, 319.976868, 9975.760742>
+Orientation: <-0.773031, 0.000000, -0.000000>
+Config-Type: Land_Workshop5
+
+Position: <5366.482422, 334.862640, 9916.384766>
+Orientation: <2.508582, 0.000000, -0.000000>
+Config-Type: Land_Mil_Fortified_Nest_Watchtower
+
+Position: <5289.280762, 338.569519, 9834.426758>
+Orientation: <-178.161316, 0.000000, -0.000000>
+Config-Type: Land_Workshop4
+
+Position: <5324.220703, 342.619934, 9792.488281>
+Orientation: <-89.174011, 0.000000, -0.000000>
+Config-Type: Land_Mil_Barracks5
+
+Position: <5300.706055, 339.159851, 9774.953125>
+Orientation: <-90.554306, 0.000000, -0.000000>
+Config-Type: Land_Mil_Barracks3
+
+Position: <5293.948730, 341.389832, 9363.548828>
+Orientation: <153.129623, 0.000000, -0.000000>
+Config-Type: Land_Mil_Guardhouse2
+
+Position: <4634.446777, 338.912567, 10378.042969>
+Orientation: <-119.891304, 0.000000, -0.000000>
+Config-Type: Land_Mil_Tent_Big1_3
+
+Position: <5387.528809, 334.747162, 9870.028320>
+Orientation: <-80.990845, 0.000000, -0.000000>
+Config-Type: Land_Mil_Tent_Big2_1
+

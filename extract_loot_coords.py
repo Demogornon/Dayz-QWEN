@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """
 Скрипт для извлечения мировых координат точек спавна лута для зданий в зонах NWAF.
+Использует полную базу данных proto_full_database.json
+Угол берется из атрибута rpy (третий компонент) без инверсии.
 """
 
 import xml.etree.ElementTree as ET
 import json
 import math
-import re
 from pathlib import Path
 
 
@@ -56,50 +57,38 @@ def is_in_zone(x, z, zones):
     return False, None
 
 
-def normalize_class_name(class_name):
-    """Нормализовать имя класса, удаляя суффиксы типа _Old, _ruin и т.д."""
-    # Удаляем суффиксы
-    suffixes = ['_Old', '_ruin', '_damage', '_broken', '_destroyed', '_base', 
-                '_floor', '_wall', '_roof', '_door', '_window', '_gate', 
-                '_fence', '_tower', '_stairs', '_part', '_end', '_mid', 
-                '_left', '_right', '_top', '_bottom', '_corner', '_single',
-                '_double', '_triple', '_long', '_short', '_wide', '_narrow']
-    
-    normalized = class_name
-    for suffix in suffixes:
-        if normalized.lower().endswith(suffix.lower()):
-            normalized = normalized[:-len(suffix)]
-            break
-    
-    return normalized
-
-
 def parse_mapgrouppos(xml_path):
     """Парсить mapgrouppos.xml и вернуть список зданий."""
     buildings = []
     tree = ET.parse(xml_path)
     root = tree.getroot()
-    
+
     for group in root.findall('group'):
         name = group.get('name', '')
         pos_str = group.get('pos', '')
-        a_str = group.get('a', '0')
-        
+        rpy_str = group.get('rpy', '')
+
         if not pos_str:
             continue
-        
+
         parts = pos_str.split()
         if len(parts) < 3:
             continue
-        
+
         try:
             bx = float(parts[0])
             by = float(parts[1])
             bz = float(parts[2])
-            angle_a = float(a_str) if a_str else 0.0
+            
+            # Извлекаем угол из rpy (третий компонент - угол вокруг Z оси)
+            rpy_parts = rpy_str.split()
+            if len(rpy_parts) >= 3:
+                angle_a = float(rpy_parts[2])
+            else:
+                angle_a = 0.0
         except ValueError:
             continue
-        
+
         buildings.append({
             'name': name,
             'bx': bx,
@@ -107,100 +96,73 @@ def parse_mapgrouppos(xml_path):
             'bz': bz,
             'angle_a': angle_a
         })
-    
+
     return buildings
 
 
-def parse_mapgroupproto(xml_path):
-    """Парсить mapgroupproto.xml и вернуть словарь прототипов с точками lootFloor."""
-    prototypes = {}
-    tree = ET.parse(xml_path)
-    root = tree.getroot()
-    
-    for group in root.findall('.//group'):
-        name = group.get('name', '')
-        if not name:
-            continue
-        
-        # Найти контейнер lootFloor
-        loot_floor_points = []
-        for container in group.findall('.//container'):
-            if container.get('name') == 'lootFloor':
-                for point in container.findall('point'):
-                    pos_str = point.get('pos', '')
-                    if pos_str:
-                        parts = pos_str.split()
-                        if len(parts) >= 3:
-                            try:
-                                lx = float(parts[0])
-                                ly = float(parts[1])
-                                lz = float(parts[2])
-                                loot_floor_points.append((lx, ly, lz))
-                            except ValueError:
-                                continue
-        
-        if loot_floor_points:
-            prototypes[name] = loot_floor_points
-    
-    return prototypes
+def load_proto_database(db_path):
+    """Загрузить полную базу данных прототипов из JSON."""
+    try:
+        with open(db_path, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"Ошибка чтения базы данных: {e}")
+        return {}
 
 
-def find_prototype(class_name, prototypes):
-    """Найти прототип по имени класса (с учетом нормализации)."""
-    # Прямое совпадение
-    if class_name in prototypes:
-        return prototypes[class_name]
+def find_prototype(class_name, proto_db):
+    """
+    Ищет прототип по ПОЛНОМУ совпадению имени класса.
+    Сначала точное совпадение, затем поиск без учета регистра.
+    """
+    # 1. Прямое совпадение (точный регистр)
+    if class_name in proto_db:
+        return proto_db[class_name]
     
-    # Нормализованное совпадение
-    normalized = normalize_class_name(class_name)
-    if normalized in prototypes:
-        return prototypes[normalized]
-    
-    # Попытка найти частичное совпадение
-    for proto_name, points in prototypes.items():
-        if proto_name.startswith(class_name) or class_name.startswith(proto_name):
-            return points
-        if normalize_class_name(proto_name) == normalized:
-            return points
+    # 2. Прямое совпадение (игнорируя регистр)
+    class_name_lower = class_name.lower()
+    for proto_name, containers in proto_db.items():
+        if proto_name.lower() == class_name_lower:
+            return containers
     
     return None
 
 
 def calculate_world_coords(bx, by, bz, angle_a, local_points):
     """Рассчитать мировые координаты для локальных точек."""
-    # Рабочий угол = -(значение атрибута a)
-    yaw_degrees = -angle_a
+    # Угол из rpy используется напрямую (без инверсии!)
+    yaw_degrees = angle_a
     yaw_radians = math.radians(yaw_degrees)
-    
+
     cos_yaw = math.cos(yaw_radians)
     sin_yaw = math.sin(yaw_radians)
-    
+
     world_points = []
     for lx, ly, lz in local_points:
         x_world = bx + (lx * cos_yaw - lz * sin_yaw)
         y_world = by + ly
         z_world = bz + (lx * sin_yaw + lz * cos_yaw)
         world_points.append((x_world, y_world, z_world))
-    
+
     return world_points
 
 
 def main():
     base_dir = Path('/workspace')
-    
+
     # Загрузка зон
     zones = load_zones(base_dir / 'Zen3ppConfig (1).json')
     if zones is None:
         print("Использую встроенные зоны NWAF...")
         zones = get_builtin_zones()
-    
+
     print(f"Загружено зон: {len(zones)}")
-    
+
     # Парсинг mapgrouppos.xml
     print("Парсинг mapgrouppos.xml...")
     buildings = parse_mapgrouppos(base_dir / 'mapgrouppos.xml')
     print(f"Всего зданий в mapgrouppos.xml: {len(buildings)}")
-    
+
     # Фильтрация зданий по зонам
     buildings_in_zones = []
     for building in buildings:
@@ -208,50 +170,55 @@ def main():
         if in_zone:
             building['zone'] = zone_name
             buildings_in_zones.append(building)
-    
+
     print(f"Зданий в зонах: {len(buildings_in_zones)}")
-    
-    # Парсинг mapgroupproto.xml
-    print("Парсинг mapgroupproto.xml...")
-    prototypes = parse_mapgroupproto(base_dir / 'mapgroupproto.xml')
-    print(f"Всего прототипов с lootFloor: {len(prototypes)}")
-    
-    # Обработка зданий и расчет координат
+
+    # Загрузка полной базы данных прототипов
+    print("Загрузка proto_full_database.json...")
+    proto_db = load_proto_database(base_dir / 'proto_full_database.json')
+    print(f"Всего прототипов в базе: {len(proto_db)}")
+
+    # Обработка зданий и расчет координат (используем только lootFloor)
     all_world_points = []
     matched_count = 0
-    not_matched_count = 0
-    
+    no_lootfloor_count = 0
+    not_found_count = 0
+
     for building in buildings_in_zones:
-        proto_points = find_prototype(building['name'], prototypes)
-        
-        if proto_points:
+        proto_containers = find_prototype(building['name'], proto_db)
+
+        if proto_containers and 'lootFloor' in proto_containers:
             matched_count += 1
+            loot_floor_points = [tuple(p) for p in proto_containers['lootFloor']]
             world_points = calculate_world_coords(
                 building['bx'], building['by'], building['bz'],
-                building['angle_a'], proto_points
+                building['angle_a'], loot_floor_points
             )
             for wp in world_points:
                 all_world_points.append(wp)
+        elif proto_containers:
+            no_lootfloor_count += 1
         else:
-            not_matched_count += 1
-    
+            not_found_count += 1
+
     print(f"\n=== СТАТИСТИКА ===")
     print(f"Зданий в зонах: {len(buildings_in_zones)}")
-    print(f"Прототипов найдено: {matched_count}")
-    print(f"Прототипов не найдено: {not_matched_count}")
+    print(f"Найдено прототипов с lootFloor: {matched_count}")
+    print(f"Найдено прототипов без lootFloor: {no_lootfloor_count}")
+    print(f"Не найдено прототипов: {not_found_count}")
     print(f"Всего точек спавна: {len(all_world_points)}")
-    
+
     # Запись результата
     output_path = base_dir / 'result_coords.txt'
     with open(output_path, 'w', encoding='utf-8') as f:
         for x, y, z in all_world_points:
             f.write(f"[ {x:.6f}, {y:.6f}, {z:.6f}, 0 ],\n")
-    
+
     print(f"\nРезультат записан в: {output_path}")
-    
-    # Вывод первых 20 строк
-    print("\n=== ПЕРВЫЕ 20 ТОЧЕК ===")
-    for i, (x, y, z) in enumerate(all_world_points[:20]):
+
+    # Вывод первых 30 строк
+    print("\n=== ПЕРВЫЕ 30 ТОЧЕК ===")
+    for i, (x, y, z) in enumerate(all_world_points[:30]):
         print(f"[ {x:.6f}, {y:.6f}, {z:.6f}, 0 ],")
 
 

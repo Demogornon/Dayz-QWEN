@@ -57,19 +57,22 @@ def is_in_zone(x, z, zones):
 
 
 def normalize_class_name(class_name):
-    """Нормализовать имя класса, удаляя суффиксы типа _Old, _ruin и т.д."""
-    suffixes = ['_Old', '_ruin', '_damage', '_broken', '_destroyed', '_base',
-                '_floor', '_wall', '_roof', '_door', '_window', '_gate',
-                '_fence', '_tower', '_stairs', '_part', '_end', '_mid',
-                '_left', '_right', '_top', '_bottom', '_corner', '_single',
-                '_double', '_triple', '_long', '_short', '_wide', '_narrow']
-
+    """Нормализовать имя класса, удаляя только специфические суффиксы состояний."""
+    # Только суффиксы состояния объекта (не части имени!)
+    suffixes = ['_Old', '_ruin', '_damaged', '_destroyed', '_burned', 
+                '_snow', '_winter', '_summer', '_wet', '_dry']
+    
     normalized = class_name
     for suffix in suffixes:
+        # Проверяем только если суффикс в конце и начинается с _
+        if normalized.endswith(suffix):
+            normalized = normalized[:-len(suffix)]
+            break
+        # Также проверяем регистронезависимо
         if normalized.lower().endswith(suffix.lower()):
             normalized = normalized[:-len(suffix)]
             break
-
+    
     return normalized
 
 
@@ -121,23 +124,28 @@ def load_proto_database(db_path):
 
 
 def find_prototype(class_name, proto_db):
-    """Найти прототип по имени класса в полной базе данных (возвращает все контейнеры)."""
-    # Прямое совпадение
+    """Найти прототип по имени класса в полной базе данных (с учетом регистра)."""
+    # 1. Прямое совпадение (точный регистр)
     if class_name in proto_db:
         return proto_db[class_name]
-
-    # Нормализованное совпадение
+    
+    # 2. Прямое совпадение (игнорируя регистр)
+    class_name_lower = class_name.lower()
+    for proto_name, containers in proto_db.items():
+        if proto_name.lower() == class_name_lower:
+            return containers
+    
+    # 3. Нормализованное совпадение (удаляем суффиксы состояний)
     normalized = normalize_class_name(class_name)
     if normalized in proto_db:
         return proto_db[normalized]
-
-    # Попытка найти частичное совпадение
+    
+    # 4. Нормализованное совпадение игнорируя регистр
+    normalized_lower = normalized.lower()
     for proto_name, containers in proto_db.items():
-        if proto_name.startswith(class_name) or class_name.startswith(proto_name):
+        if proto_name.lower() == normalized_lower:
             return containers
-        if normalize_class_name(proto_name) == normalized:
-            return containers
-
+    
     return None
 
 

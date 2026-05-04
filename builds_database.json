@@ -1,0 +1,1208 @@
+[
+  {
+    "classname": "Land_Mil_Barracks6_Old",
+    "position": [
+      4489.820801,
+      338.763947,
+      9518.495117
+    ],
+    "angle": 150.0
+  },
+  {
+    "classname": "Land_Mil_Barracks6",
+    "position": [
+      4498.594238,
+      339.0,
+      9550.15332
+    ],
+    "angle": 150.0
+  },
+  {
+    "classname": "Land_Mil_Barracks6_Old",
+    "position": [
+      4508.539063,
+      338.763947,
+      9583.461914
+    ],
+    "angle": 150.0
+  },
+  {
+    "classname": "Land_Mil_Guardhouse1",
+    "position": [
+      4519.192871,
+      341.214417,
+      9389.499023
+    ],
+    "angle": 140.886948
+  },
+  {
+    "classname": "Land_Mil_Barracks3",
+    "position": [
+      4553.765625,
+      341.403992,
+      9540.152344
+    ],
+    "angle": 150.0
+  },
+  {
+    "classname": "Land_Office2",
+    "position": [
+      4591.328125,
+      347.710724,
+      9554.226563
+    ],
+    "angle": -29.999928
+  },
+  {
+    "classname": "Land_Office2",
+    "position": [
+      4550.699707,
+      347.710724,
+      9600.814453
+    ],
+    "angle": -119.999985
+  },
+  {
+    "classname": "Land_Tisy_KitchenRoom",
+    "position": [
+      4456.164551,
+      343.5,
+      9580.411133
+    ],
+    "angle": 15.0
+  },
+  {
+    "classname": "Land_Power_Station",
+    "position": [
+      4474.641602,
+      341.052521,
+      9646.079102
+    ],
+    "angle": 152.059433
+  },
+  {
+    "classname": "Land_Workshop5",
+    "position": [
+      4451.310059,
+      340.39386,
+      9642.756836
+    ],
+    "angle": -29.999928
+  },
+  {
+    "classname": "Land_Workshop4",
+    "position": [
+      4459.026367,
+      340.664581,
+      9682.876953
+    ],
+    "angle": -117.828667
+  },
+  {
+    "classname": "Land_Repair_Center",
+    "position": [
+      4518.094238,
+      341.573761,
+      9645.407227
+    ],
+    "angle": -29.263824
+  },
+  {
+    "classname": "Land_Garage_Row_Small",
+    "position": [
+      4533.811523,
+      340.588196,
+      9653.709961
+    ],
+    "angle": -30.163141
+  },
+  {
+    "classname": "Land_Workshop5",
+    "position": [
+      4513.408691,
+      340.39386,
+      9659.479492
+    ],
+    "angle": -29.779285
+  },
+  {
+    "classname": "Land_Garage_Row_Small",
+    "position": [
+      4507.656738,
+      340.588196,
+      9673.896484
+    ],
+    "angle": 60.72229
+  },
+  {
+    "classname": "Land_Garage_Row_Small",
+    "position": [
+      4500.112305,
+      340.588196,
+      9687.322266
+    ],
+    "angle": 60.72229
+  },
+  {
+    "classname": "Land_Shed_Closed",
+    "position": [
+      4491.809082,
+      344.058441,
+      9712.168945
+    ],
+    "angle": 60.0
+  },
+  {
+    "classname": "Land_Mil_Guardhouse1",
+    "position": [
+      4487.979492,
+      341.254578,
+      9765.634766
+    ],
+    "angle": -118.9142
+  },
+  {
+    "classname": "Land_Workshop4",
+    "position": [
+      4419.817383,
+      340.70459,
+      9803.092773
+    ],
+    "angle": 60.861694
+  },
+  {
+    "classname": "Land_Water_Station",
+    "position": [
+      4444.10791,
+      342.307861,
+      9941.922852
+    ],
+    "angle": 59.330502
+  },
+  {
+    "classname": "Land_Garage_Row_Big",
+    "position": [
+      4303.01709,
+      342.238678,
+      10115.202148
+    ],
+    "angle": -146.984848
+  },
+  {
+    "classname": "Land_Mil_Barracks3",
+    "position": [
+      4144.262695,
+      341.566193,
+      10274.673828
+    ],
+    "angle": -126.730942
+  },
+  {
+    "classname": "Land_Tisy_Garages2",
+    "position": [
+      4027.031006,
+      339.258148,
+      10357.199219
+    ],
+    "angle": -90.0
+  },
+  {
+    "classname": "Land_Workshop4",
+    "position": [
+      4152.047852,
+      340.664581,
+      10398.338867
+    ],
+    "angle": -127.999992
+  },
+  {
+    "classname": "Land_Shed_Closed",
+    "position": [
+      4134.193359,
+      344.041168,
+      10431.96582
+    ],
+    "angle": 142.0
+  },
+  {
+    "classname": "Land_Mil_Barracks3",
+    "position": [
+      4109.525391,
+      341.200409,
+      10459.620117
+    ],
+    "angle": -37.999992
+  },
+  {
+    "classname": "Land_Mil_Tent_Big4",
+    "position": [
+      4054.768555,
+      340.334076,
+      10521.386719
+    ],
+    "angle": -26.975744
+  },
+  {
+    "classname": "Land_Mil_Barracks_Round",
+    "position": [
+      4064.225342,
+      340.830475,
+      10556.71875
+    ],
+    "angle": 68.605576
+  },
+  {
+    "classname": "StaticObj_Wall_CYel_5",
+    "position": [
+      3998.718018,
+      344.403442,
+      10495.282227
+    ],
+    "angle": 63.503094
+  },
+  {
+    "classname": "Land_Mil_Barracks4",
+    "position": [
+      3972.982666,
+      340.764984,
+      10558.09668
+    ],
+    "angle": -18.198912
+  },
+  {
+    "classname": "Land_Mil_Barracks4",
+    "position": [
+      3968.926025,
+      340.764984,
+      10570.493164
+    ],
+    "angle": -18.198912
+  },
+  {
+    "classname": "Land_Mil_Tent_Big1_3",
+    "position": [
+      4071.299561,
+      339.065521,
+      10509.319336
+    ],
+    "angle": 144.001175
+  },
+  {
+    "classname": "Land_Power_Transformer_Build",
+    "position": [
+      3628.810059,
+      323.27182,
+      11158.878906
+    ],
+    "angle": -89.632698
+  },
+  {
+    "classname": "Land_Mil_Guardhouse2",
+    "position": [
+      3613.318115,
+      317.498138,
+      11176.253906
+    ],
+    "angle": -83.133667
+  },
+  {
+    "classname": "Land_Mil_Barracks2",
+    "position": [
+      3997.604736,
+      376.857758,
+      11884.28418
+    ],
+    "angle": 36.854347
+  },
+  {
+    "classname": "Land_Mil_Barracks2",
+    "position": [
+      4024.935303,
+      376.912384,
+      11865.339844
+    ],
+    "angle": -142.941116
+  },
+  {
+    "classname": "Land_Garage_Small",
+    "position": [
+      4035.118408,
+      376.856171,
+      11848.348633
+    ],
+    "angle": 37.164104
+  },
+  {
+    "classname": "Land_Workshop2",
+    "position": [
+      4013.907471,
+      376.888794,
+      11831.831055
+    ],
+    "angle": -89.435143
+  },
+  {
+    "classname": "Land_Mil_Barracks3",
+    "position": [
+      3987.70752,
+      377.890747,
+      11825.287109
+    ],
+    "angle": -0.115366
+  },
+  {
+    "classname": "Land_Mil_Barracks1",
+    "position": [
+      4017.932129,
+      377.783081,
+      11805.979492
+    ],
+    "angle": -90.165588
+  },
+  {
+    "classname": "Land_Mil_Barracks2",
+    "position": [
+      4020.429443,
+      377.096741,
+      11786.428711
+    ],
+    "angle": 179.791565
+  },
+  {
+    "classname": "Land_Mil_Barracks2",
+    "position": [
+      3984.514648,
+      376.995911,
+      11799.549805
+    ],
+    "angle": 0.324463
+  },
+  {
+    "classname": "Land_Mil_Barracks1",
+    "position": [
+      3983.275635,
+      377.816986,
+      11782.115234
+    ],
+    "angle": -89.417625
+  },
+  {
+    "classname": "Land_Garage_Row_Small",
+    "position": [
+      4063.262939,
+      381.019226,
+      11790.651367
+    ],
+    "angle": 149.286652
+  },
+  {
+    "classname": "Land_Workshop1",
+    "position": [
+      4088.332031,
+      380.912994,
+      11736.466797
+    ],
+    "angle": 148.374466
+  },
+  {
+    "classname": "Land_Mil_Barracks5_Basement",
+    "position": [
+      4047.376221,
+      380.815094,
+      11712.568359
+    ],
+    "angle": -120.488892
+  },
+  {
+    "classname": "Land_Airfield_Radar_Tall",
+    "position": [
+      4142.208008,
+      406.334747,
+      11763.908203
+    ],
+    "angle": 148.943161
+  },
+  {
+    "classname": "Land_Water_Station",
+    "position": [
+      3975.938232,
+      368.787659,
+      11626.166992
+    ],
+    "angle": 20.500999
+  },
+  {
+    "classname": "Land_Garage_Row_Big",
+    "position": [
+      4017.483154,
+      373.14386,
+      11614.263672
+    ],
+    "angle": -159.978973
+  },
+  {
+    "classname": "Land_Garage_Row_Big",
+    "position": [
+      4041.756836,
+      373.145782,
+      11605.413086
+    ],
+    "angle": -159.978973
+  },
+  {
+    "classname": "Land_Garage_Office",
+    "position": [
+      4057.7229,
+      373.067688,
+      11601.638672
+    ],
+    "angle": -159.97937
+  },
+  {
+    "classname": "Land_Mil_Guardhouse1",
+    "position": [
+      4159.599121,
+      373.701538,
+      11619.107422
+    ],
+    "angle": 98.049789
+  },
+  {
+    "classname": "Land_Mil_Barracks_Round",
+    "position": [
+      4121.492676,
+      339.643799,
+      11049.361328
+    ],
+    "angle": -107.00116
+  },
+  {
+    "classname": "Land_Mil_Barracks_Round",
+    "position": [
+      4124.393066,
+      339.643799,
+      11039.933594
+    ],
+    "angle": -107.00116
+  },
+  {
+    "classname": "Land_Mil_Fortified_Nest_Watchtower",
+    "position": [
+      4135.597168,
+      340.462769,
+      11058.539063
+    ],
+    "angle": -17.58666
+  },
+  {
+    "classname": "Land_Mil_Tent_Big3",
+    "position": [
+      4156.551758,
+      339.580505,
+      11059.474609
+    ],
+    "angle": -107.730186
+  },
+  {
+    "classname": "Land_Mil_Tent_Big2_2",
+    "position": [
+      4181.081543,
+      340.407166,
+      11078.22168
+    ],
+    "angle": 55.464985
+  },
+  {
+    "classname": "Land_Mil_Tent_Big1_1",
+    "position": [
+      4199.960449,
+      338.410034,
+      11077.306641
+    ],
+    "angle": -15.091347
+  },
+  {
+    "classname": "Land_Mil_Tent_Big1_4",
+    "position": [
+      4211.389648,
+      338.410034,
+      11080.548828
+    ],
+    "angle": -15.091347
+  },
+  {
+    "classname": "Land_Mil_Tent_Big4",
+    "position": [
+      4189.506836,
+      339.621552,
+      11057.50293
+    ],
+    "angle": -16.968884
+  },
+  {
+    "classname": "Land_Mil_Tent_Big2_3",
+    "position": [
+      4199.433594,
+      340.407135,
+      11055.601563
+    ],
+    "angle": -16.483667
+  },
+  {
+    "classname": "Land_Mil_Tent_Big1_5",
+    "position": [
+      4216.567871,
+      338.410004,
+      11048.108398
+    ],
+    "angle": 164.224762
+  },
+  {
+    "classname": "Land_Mil_Tent_Big2_4",
+    "position": [
+      4208.553711,
+      340.394348,
+      11022.911133
+    ],
+    "angle": -14.832511
+  },
+  {
+    "classname": "Land_Mil_Tent_Big1_2",
+    "position": [
+      4218.373535,
+      338.402008,
+      11000.988281
+    ],
+    "angle": 163.920471
+  },
+  {
+    "classname": "Land_Mil_Tent_Big4",
+    "position": [
+      4204.964844,
+      339.611542,
+      11000.817383
+    ],
+    "angle": -16.968884
+  },
+  {
+    "classname": "Land_Mil_AircraftShelter",
+    "position": [
+      4359.412109,
+      338.690094,
+      10968.28418
+    ],
+    "angle": -2.174913
+  },
+  {
+    "classname": "Land_Mil_AircraftShelter",
+    "position": [
+      4408.01123,
+      338.556549,
+      10994.467773
+    ],
+    "angle": -2.790996
+  },
+  {
+    "classname": "Land_Workshop1",
+    "position": [
+      4435.57959,
+      340.048645,
+      10946.700195
+    ],
+    "angle": -29.436628
+  },
+  {
+    "classname": "Land_Mil_AircraftShelter",
+    "position": [
+      4457.364258,
+      338.635162,
+      10909.289063
+    ],
+    "angle": 122.102997
+  },
+  {
+    "classname": "Land_Mil_AircraftShelter",
+    "position": [
+      4410.405762,
+      338.690338,
+      10878.563477
+    ],
+    "angle": 122.102997
+  },
+  {
+    "classname": "Land_Power_Station",
+    "position": [
+      4427.341309,
+      340.956238,
+      10802.014648
+    ],
+    "angle": -27.453989
+  },
+  {
+    "classname": "Land_Workshop1",
+    "position": [
+      4471.70166,
+      340.309448,
+      10830.115234
+    ],
+    "angle": 151.601974
+  },
+  {
+    "classname": "Land_CoalPlant_Main",
+    "position": [
+      4563.868164,
+      351.777435,
+      10854.026367
+    ],
+    "angle": 0.0
+  },
+  {
+    "classname": "Land_Repair_Center",
+    "position": [
+      4456.811035,
+      341.577698,
+      10726.012695
+    ],
+    "angle": 62.021954
+  },
+  {
+    "classname": "Land_Mil_AircraftShelter",
+    "position": [
+      4504.733887,
+      339.042572,
+      10722.510742
+    ],
+    "angle": 4.431
+  },
+  {
+    "classname": "Land_Mil_AircraftShelter",
+    "position": [
+      4557.237305,
+      339.015198,
+      10749.496094
+    ],
+    "angle": 4.336
+  },
+  {
+    "classname": "Land_Mil_AircraftShelter",
+    "position": [
+      4627.186523,
+      338.999969,
+      10685.427734
+    ],
+    "angle": 115.497002
+  },
+  {
+    "classname": "Land_Mil_AircraftShelter",
+    "position": [
+      4581.883789,
+      338.999969,
+      10654.839844
+    ],
+    "angle": 115.497002
+  },
+  {
+    "classname": "Land_Power_Station",
+    "position": [
+      4701.677734,
+      340.982117,
+      10723.634766
+    ],
+    "angle": 51.489178
+  },
+  {
+    "classname": "Land_Workshop3",
+    "position": [
+      4717.399414,
+      340.312256,
+      10704.832031
+    ],
+    "angle": -128.706146
+  },
+  {
+    "classname": "Land_Workshop1",
+    "position": [
+      4740.817383,
+      335.598541,
+      10868.024414
+    ],
+    "angle": -41.0312
+  },
+  {
+    "classname": "Land_Factory_Small",
+    "position": [
+      4816.520508,
+      344.862823,
+      10642.128906
+    ],
+    "angle": -135.608994
+  },
+  {
+    "classname": "Land_Guardhouse",
+    "position": [
+      4780.643555,
+      339.68219,
+      10655.894531
+    ],
+    "angle": -41.555405
+  },
+  {
+    "classname": "Land_Mil_Barracks1",
+    "position": [
+      4758.819336,
+      340.996338,
+      10624.082031
+    ],
+    "angle": -45.12038
+  },
+  {
+    "classname": "Land_Shed_Closed2",
+    "position": [
+      4786.567871,
+      340.86557,
+      10606.516602
+    ],
+    "angle": -135.608994
+  },
+  {
+    "classname": "Land_Shed_Closed2",
+    "position": [
+      4767.512207,
+      340.7052,
+      10587.347656
+    ],
+    "angle": -135.608994
+  },
+  {
+    "classname": "Land_Shed_Closed2",
+    "position": [
+      4807.647461,
+      340.660919,
+      10577.388672
+    ],
+    "angle": 44.391006
+  },
+  {
+    "classname": "Land_Shed_Closed2",
+    "position": [
+      4789.231445,
+      340.725159,
+      10558.160156
+    ],
+    "angle": 44.391006
+  },
+  {
+    "classname": "Land_Garage_Row_Big",
+    "position": [
+      4940.924805,
+      337.534821,
+      10466.732422
+    ],
+    "angle": 65.360435
+  },
+  {
+    "classname": "Land_Garage_Office",
+    "position": [
+      4946.083008,
+      337.520477,
+      10451.018555
+    ],
+    "angle": 65.360435
+  },
+  {
+    "classname": "Land_Guardhouse",
+    "position": [
+      4941.763184,
+      335.010284,
+      10419.165039
+    ],
+    "angle": -130.954514
+  },
+  {
+    "classname": "Land_Mil_Airfield_HQ",
+    "position": [
+      4924.283203,
+      339.589722,
+      10409.899414
+    ],
+    "angle": 46.667435
+  },
+  {
+    "classname": "Land_Workshop4",
+    "position": [
+      4792.877441,
+      340.70459,
+      10451.053711
+    ],
+    "angle": 64.586693
+  },
+  {
+    "classname": "Land_Mil_Barracks3",
+    "position": [
+      4731.710449,
+      341.334442,
+      10538.860352
+    ],
+    "angle": 115.447334
+  },
+  {
+    "classname": "Land_Workshop3",
+    "position": [
+      4670.372559,
+      340.478149,
+      10544.542969
+    ],
+    "angle": -176.166489
+  },
+  {
+    "classname": "Land_Workshop5",
+    "position": [
+      4622.919922,
+      340.393829,
+      10509.341797
+    ],
+    "angle": -27.180971
+  },
+  {
+    "classname": "Land_Workshop4",
+    "position": [
+      4580.151855,
+      340.664581,
+      10532.381836
+    ],
+    "angle": 59.526291
+  },
+  {
+    "classname": "Land_Garage_Row_Small",
+    "position": [
+      4557.349609,
+      340.588196,
+      10536.787109
+    ],
+    "angle": -32.683456
+  },
+  {
+    "classname": "Land_Mil_FireStation",
+    "position": [
+      4561.953125,
+      339.207581,
+      10583.12793
+    ],
+    "angle": 0.0
+  },
+  {
+    "classname": "Land_Workshop2",
+    "position": [
+      4619.938477,
+      340.347961,
+      10472.208008
+    ],
+    "angle": 151.170319
+  },
+  {
+    "classname": "Land_Mil_ATC_Big",
+    "position": [
+      4636.717773,
+      354.441772,
+      10445.325195
+    ],
+    "angle": 60.891064
+  },
+  {
+    "classname": "Land_Mil_Tent_Big1_4",
+    "position": [
+      4629.746094,
+      338.869171,
+      10386.112305
+    ],
+    "angle": -119.504631
+  },
+  {
+    "classname": "Land_Mil_Tent_Big3",
+    "position": [
+      4664.13623,
+      340.215759,
+      10376.732422
+    ],
+    "angle": -30.036947
+  },
+  {
+    "classname": "Land_Airfield_ServiceHangar_R",
+    "position": [
+      4733.847656,
+      338.989594,
+      10289.067383
+    ],
+    "angle": -120.871269
+  },
+  {
+    "classname": "Land_Medical_Tent_Big",
+    "position": [
+      4759.015625,
+      339.087585,
+      10317.001953
+    ],
+    "angle": -119.117905
+  },
+  {
+    "classname": "Land_Medical_Tent_Big",
+    "position": [
+      4779.539063,
+      339.088715,
+      10321.688477
+    ],
+    "angle": -28.619247
+  },
+  {
+    "classname": "Land_Medical_Tent_Big",
+    "position": [
+      4775.198242,
+      339.095001,
+      10329.72168
+    ],
+    "angle": -28.103567
+  },
+  {
+    "classname": "Land_Medical_Tent_Shower",
+    "position": [
+      4764.6875,
+      340.668121,
+      10323.961914
+    ],
+    "angle": 59.30114
+  },
+  {
+    "classname": "Land_Wreck_C130J_2",
+    "position": [
+      4706.785156,
+      344.893494,
+      10329.291992
+    ],
+    "angle": 105.32399
+  },
+  {
+    "classname": "Land_Wreck_C130J_Cargo",
+    "position": [
+      4397.785645,
+      344.109009,
+      10231.076172
+    ],
+    "angle": 95.30529
+  },
+  {
+    "classname": "Land_Mil_AircraftShelter",
+    "position": [
+      4816.044434,
+      339.0,
+      10181.456055
+    ],
+    "angle": 4.431
+  },
+  {
+    "classname": "Land_Mil_AircraftShelter",
+    "position": [
+      4866.023926,
+      339.0,
+      10207.993164
+    ],
+    "angle": 4.431
+  },
+  {
+    "classname": "Land_Mil_AircraftShelter",
+    "position": [
+      4938.669434,
+      338.98999,
+      10139.540039
+    ],
+    "angle": 114.314003
+  },
+  {
+    "classname": "Land_Mil_AircraftShelter",
+    "position": [
+      4889.960449,
+      338.990692,
+      10110.470703
+    ],
+    "angle": 114.951996
+  },
+  {
+    "classname": "Land_Mil_AircraftShelter",
+    "position": [
+      4917.070801,
+      339.0,
+      10029.149414
+    ],
+    "angle": -1.99782
+  },
+  {
+    "classname": "Land_Mil_AircraftShelter",
+    "position": [
+      4970.566895,
+      338.991455,
+      10059.114258
+    ],
+    "angle": -1.659999
+  },
+  {
+    "classname": "Land_Workshop5",
+    "position": [
+      5001.638672,
+      340.287048,
+      10026.977539
+    ],
+    "angle": -89.283676
+  },
+  {
+    "classname": "Land_Mil_AircraftShelter",
+    "position": [
+      5023.500977,
+      338.990845,
+      9968.365234
+    ],
+    "angle": 122.594994
+  },
+  {
+    "classname": "Land_Mil_AircraftShelter",
+    "position": [
+      4968.069824,
+      339.0,
+      9939.15918
+    ],
+    "angle": 124.434006
+  },
+  {
+    "classname": "Land_Workshop1",
+    "position": [
+      5035.30127,
+      340.438568,
+      9860.042969
+    ],
+    "angle": 89.547745
+  },
+  {
+    "classname": "Land_Mil_Barracks3",
+    "position": [
+      5038.829102,
+      341.200409,
+      9840.758789
+    ],
+    "angle": -90.377792
+  },
+  {
+    "classname": "Land_Mil_Barracks2",
+    "position": [
+      5049.383789,
+      340.368378,
+      9807.552734
+    ],
+    "angle": -89.897766
+  },
+  {
+    "classname": "Land_Mil_AircraftShelter",
+    "position": [
+      5011.342773,
+      338.999969,
+      9786.728516
+    ],
+    "angle": -3.536006
+  },
+  {
+    "classname": "Land_Mil_AircraftShelter",
+    "position": [
+      5044.110352,
+      339.000031,
+      9681.734375
+    ],
+    "angle": 123.052002
+  },
+  {
+    "classname": "Land_Mil_AircraftShelter",
+    "position": [
+      5089.249512,
+      339.000031,
+      9710.005859
+    ],
+    "angle": 122.103981
+  },
+  {
+    "classname": "Land_Wreck_C130J",
+    "position": [
+      4829.90918,
+      344.25296,
+      9647.303711
+    ],
+    "angle": 169.501022
+  },
+  {
+    "classname": "Land_Workshop5",
+    "position": [
+      5368.944824,
+      319.976868,
+      9975.760742
+    ],
+    "angle": -0.773031
+  },
+  {
+    "classname": "Land_Mil_Fortified_Nest_Watchtower",
+    "position": [
+      5366.482422,
+      334.86264,
+      9916.384766
+    ],
+    "angle": 2.508582
+  },
+  {
+    "classname": "Land_Workshop4",
+    "position": [
+      5289.280762,
+      338.569519,
+      9834.426758
+    ],
+    "angle": -178.161316
+  },
+  {
+    "classname": "Land_Mil_Barracks5",
+    "position": [
+      5324.220703,
+      342.619934,
+      9792.488281
+    ],
+    "angle": -89.174011
+  },
+  {
+    "classname": "Land_Mil_Barracks3",
+    "position": [
+      5300.706055,
+      339.159851,
+      9774.953125
+    ],
+    "angle": -90.554306
+  },
+  {
+    "classname": "Land_Mil_Guardhouse2",
+    "position": [
+      5293.94873,
+      341.389832,
+      9363.548828
+    ],
+    "angle": 153.129623
+  },
+  {
+    "classname": "Land_Mil_Tent_Big1_3",
+    "position": [
+      4634.446777,
+      338.912567,
+      10378.042969
+    ],
+    "angle": -119.891304
+  },
+  {
+    "classname": "Land_Mil_Tent_Big2_1",
+    "position": [
+      5387.528809,
+      334.747162,
+      9870.02832
+    ],
+    "angle": -80.990845
+  }
+]
